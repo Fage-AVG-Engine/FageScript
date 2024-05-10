@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Fage.Script": {
+      "commandName": "Project",
+      "commandLineArgs": "--SkipSplash=true"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <Configurations>Debug;Release;GeneratePlantUml</Configurations>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Instruction\Builder\NewCategoryTemplate.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Instruction\Builder\NewCategoryTemplate.cs" />
+  </ItemGroup>
+
+</Project>
